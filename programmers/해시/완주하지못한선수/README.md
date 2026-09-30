@@ -20,6 +20,7 @@ HashMap의 value에 인원수를 담아서 참가 시 +1 완주 시 -1로 ㅂ교
 
 ## 3. 실제 코드 구조
 
+```
 import java.util.Arrays;
 import java.util.HashMap;
 
@@ -48,7 +49,7 @@ class Solution {
     
     }
 }
-
+```
 ## 4. 풀면서 막혔던 부분과 새롭게 알게 된 점
 
 HashMap과 HashSet의 차이를 알게되었다. Set은 같은 값을 넣으면 무시하고 하나만 저장하기 때문에 동명이인이 몇명인지 정보를 알 수 없다.
