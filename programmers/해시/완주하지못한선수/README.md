@@ -16,11 +16,11 @@ getOrDefalut() 함수는 키(코드에서는 p)에 해당하는 값을 반환하
 
 여기서 키포인트는 중복선수인데, 이름으로 골라내지 않고 참가한 인원수로 로직을 풀어낸게 그 이유다.
 
-HashMap의 value에 인원수를 담아서 참가 시 +1 완주 시 -1로 ㅂ교했다.
+HashMap의 value에 인원수를 담아서 참가 시 +1 완주 시 -1로 비교했다.
 
 ## 3. 실제 코드 구조
 
-```
+```java
 import java.util.Arrays;
 import java.util.HashMap;
 
